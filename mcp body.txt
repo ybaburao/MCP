@@ -1,0 +1,77 @@
+Product Entry Service 
+
+addProduct:
+
+ {
+           "productId":"1",
+            "productName": "123 test",
+            "stock": 123,
+            "price": 10.0,
+            "offer": 10.0
+        
+  }
+
+updateProduct:
+
+ {
+           "productId":"1",
+            "productName": "123 test",
+            "stock": 123,
+            "price": 10.0,
+            "offer": 10.0
+        
+  }
+
+Get : 
+Give the productId
+
+Delete :
+Give the productId 
+
+
+userregistration:
+
+createUser:
+
+{
+           "userId":"234561",
+            "firstName": "3456 test demo",
+            "lastName": "123 last demo",
+            "dob": "02/03/09",
+            "email": "ybaburao@gmail.com"
+        
+ }
+
+updateUser:
+
+{
+           "userId":"234561",
+            "firstName": "3456 test demo",
+            "lastName": "123 last demo",
+            "dob": "02/03/09",
+            "email": "ybaburao@gmail.com"
+        
+ }
+
+Get
+give the userId
+
+orderproductservice
+
+addtocart:
+
+{
+           "orderId":"1",
+	    "userId":"1",
+            "orderProductId": "1",
+            "noOfUnits": 789,
+            "price": 10.0
+        
+ }
+
+listCart -  No input required
+
+checkoutOrders -  give the OrderId
+
+
+
